@@ -1,2 +1,4 @@
 git config --global user.name RenanZenaro
 git config --global user.email renanzenaro@hotmail.com
+
+pesquisar sobre criar componentes e usar em varias paginas (menu e roodape)
