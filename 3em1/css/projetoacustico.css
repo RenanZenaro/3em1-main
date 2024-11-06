@@ -1,5 +1,7 @@
 .social-icons {
-    margin-top: 10px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
 }
 .social-icon {
     display: inline-block;
@@ -15,9 +17,30 @@
     border: 2px solid transparent; /* Borda padrão */
 }
 .social-icon:hover {
-    background-color: #007bff; /* Cor ao passar o mouse */
+    background-color: #529ceb; /* Cor ao passar o mouse */
     color: white; /* Cor do ícone ao passar o mouse */
     transform: translateY(-3px); /* Efeito de levantamento */
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Sombra mais intensa ao passar o mouse */
     border: 2px solid #0056b3; /* Borda ao passar o mouse */
+}
+
+.youtube__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+ .youtube__item__pic {
+    width: 70%; 
+    height: 380px;
+    object-fit: contain; /* Garante que a imagem seja cortada proporcionalmente */
+}
+
+.section-title h2 {
+    font-size: 60px !important;
+}
+
+.fs-20 {
+    font-size: 20px !important;
 }
